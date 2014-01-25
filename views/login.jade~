@@ -1,0 +1,66 @@
+extend layout
+block login
+  p 
+     | #{user}
+     | #{pass}
+block search
+  form(method="GET", action="/search")
+     input(type="text", placeholder="query")
+     input(type="submit", value="search")
+block content
+  p
+     b title
+     br
+     | Vivamus hendrerit arcu sed erat molestie
+     | vehicula. Sed auctor neque eu tellus
+     | rhoncus ut eleifend nibh porttitor. Ut in.
+  p
+     b title
+     br
+     | Donec congue lacinia dui, a porttitor
+     | lectus condimentum laoreet. Nunc eu
+     | ullamcorper orci. Quisque eget odio ac
+     | lectus vestibulum faucibus eget in metus.
+     | In pellentesque faucibus vestibulum. Nulla
+     | at nulla justo, eget luctus tortor.
+
+  p
+     b title
+     br
+     | Vivamus hendrerit arcu sed erat molestie
+     | vehicula. Sed auctor neque eu tellus
+     | rhoncus ut eleifend nibh porttitor. Ut in.
+  p
+     b title
+     br
+     | Donec congue lacinia dui, a porttitor
+     | lectus condimentum laoreet. Nunc eu
+     | ullamcorper orci. Quisque eget odio ac
+     | lectus vestibulum faucibus eget in metus.
+     | In pellentesque faucibus vestibulum. Nulla
+     | at nulla justo, eget luctus tortor.  
+  p
+     b title
+     br
+     | Vivamus hendrerit arcu sed erat molestie
+     | vehicula. Sed auctor neque eu tellus
+     | rhoncus ut eleifend nibh porttitor. Ut in.
+  p
+     b title
+     br
+     | Donec congue lacinia dui, a porttitor
+     | lectus condimentum laoreet. Nunc eu
+     | ullamcorper orci. Quisque eget odio ac
+     | lectus vestibulum faucibus eget in metus.
+     | In pellentesque faucibus vestibulum. Nulla
+     | at nulla justo, eget luctus tortor.
+block sidebar
+  .widget
+    h1 Widget
+    p
+       Sed auctor neque eu tellus rhoncus ut
+       eleifend nibh porttitor. Ut in nulla enim.
+    p
+       Vivamus hendrerit arcu sed erat molestie
+       vehicula.
+

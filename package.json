@@ -1,0 +1,14 @@
+{
+  "name": "koobecaf",
+  "description": "hello world",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "stylus": "*",
+    "nib": "*"
+  }
+}

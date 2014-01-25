@@ -1,0 +1,17 @@
+extend layout
+block login
+	form(method="POST", action="/login")
+		input(type="text", placeholder="username", name="user[email]")
+		input(type="password", placeholder="password", name="user[password]")
+		input(type="submit", value="login")
+block content
+	.createaccount
+		h2 create an account
+			form(method="POST", action="/createaccount")
+				input(type="text", placeholder="first name", name="user[firstname]")
+				input(type="text", placeholder="last name", name="user[lastname]")
+				input(type="text", placeholder="email", name="user[email]")
+				input(type="password", placeholder="password", name="user[password]")
+				input(type="password", placeholder="confirm password", name="user[confirmpassword")
+				input(type="submit", value="signup")
+
